@@ -83,7 +83,7 @@ const LoginForm = () => {
             type="button"
             onClick={handleQuickLogin}
             disabled={loading}
-            className="w-full mb-8 flex items-center justify-center gap-3 bg-gradient-to-r from-orange-400 to-rose-500 text-white py-4 rounded-2xl font-bold shadow-[0_10px_25px_-5px_rgba(244,63,94,0.4)] hover:shadow-[0_15px_30px_-5px_rgba(244,63,94,0.5)] active:scale-95 transition-all text-sm disabled:opacity-50"
+            className="w-full cursor-pointer mb-8 flex items-center justify-center gap-3 bg-gradient-to-r from-orange-400 to-rose-500 text-white py-4 rounded-2xl font-bold shadow-[0_10px_25px_-5px_rgba(244,63,94,0.4)] hover:shadow-[0_15px_30px_-5px_rgba(244,63,94,0.5)] active:scale-95 transition-all text-sm disabled:opacity-50"
           >
             <Zap size={18} className="fill-current" />
             Instant Admin Access
