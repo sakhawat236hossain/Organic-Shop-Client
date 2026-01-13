@@ -1,3 +1,4 @@
+import BestSellers from "@/components/landing/BestSellers/BestSellers";
 import CategorySection from "@/components/landing/CategorySection/CategorySection";
 import Features from "@/components/landing/Features/Features";
 import Hero from "@/components/landing/Hero/Hero";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Features />
       <CategorySection></CategorySection>
+      <BestSellers></BestSellers>
     </div>
   );
 }
