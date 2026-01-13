@@ -44,12 +44,13 @@ const Navbar = () => {
     router.push("/login");
     router.refresh();
   };
-
-  const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "Products", href: "/products" },
-    { name: "Contact", href: "/contact" },
-  ];
+const navLinks = [
+  { name: "Home", href: "/" },
+  { name: "Products", href: "/products" },
+  { name: "Offers", href: "/offers" },    
+  { name: "About", href: "/about" },     
+  { name: "Contact", href: "/contact" },
+];
 
   return (
     <nav
