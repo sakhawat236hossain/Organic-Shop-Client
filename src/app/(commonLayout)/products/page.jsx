@@ -22,13 +22,40 @@ const ProductAllPage = () => {
     fetchProducts();
   }, []);
 
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-white">
-        <div className="w-10 h-10 border-4 border-emerald-100 border-t-emerald-600 rounded-full animate-spin"></div>
+ if (loading) {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC]">
+      <div className="relative flex flex-col items-center">
+        {/* Outer Pulsing Glow */}
+        <div className="absolute w-24 h-24 bg-emerald-400/20 rounded-full blur-2xl animate-pulse"></div>
+        
+        {/* Main Spinner Container */}
+        <div className="relative w-20 h-20 flex items-center justify-center">
+          {/* Animated Rings */}
+          <div className="absolute inset-0 border-4 border-emerald-100 rounded-full"></div>
+          <div className="absolute inset-0 border-4 border-t-emerald-600 border-r-transparent border-b-transparent border-l-transparent rounded-full animate-spin"></div>
+          
+          {/* Center Icon or Logo */}
+          <div className="relative bg-white p-3 rounded-2xl shadow-lg border border-emerald-50">
+             <div className="w-6 h-6 bg-emerald-600 rounded-lg animate-bounce"></div>
+          </div>
+        </div>
+
+        {/* Loading Text */}
+        <div className="mt-8 flex flex-col items-center">
+           <h3 className="text-slate-900 font-black text-sm uppercase tracking-[0.3em] animate-pulse">
+             Loading
+           </h3>
+           <div className="flex gap-1 mt-2">
+             <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full animate-bounce [animation-delay:-0.3s]"></div>
+             <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full animate-bounce [animation-delay:-0.15s]"></div>
+             <div className="w-1.5 h-1.5 bg-emerald-600 rounded-full animate-bounce"></div>
+           </div>
+        </div>
       </div>
-    );
-  }
+    </div>
+  );
+}
 
   return (
     <div className="min-h-screen bg-[#fafafa] text-slate-800">

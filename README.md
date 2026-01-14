@@ -27,7 +27,7 @@ Follow these steps to run the project locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
+    git clone [https://github.com/sakhawat236hossain/Organic-Shop-Client.git](https://github.com/sakhawat236hossain/Organic-Shop-Client.git)
     ```
 
 2.  **Navigate to the project directory:**
