@@ -4,6 +4,7 @@ import CategorySection from "@/components/landing/CategorySection/CategorySectio
 import BestSellers from "@/components/landing/BestSellers/BestSellers";
 import AboutSection from "@/components/landing/AboutSection/AboutSection";
 import Testimonials from "@/components/landing/Testimonials/Testimonials";
+import FlashSale from "@/components/landing/FlashSale/FlashSale";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
 
       <CategorySection />
+      <FlashSale />
 
       <BestSellers />
 

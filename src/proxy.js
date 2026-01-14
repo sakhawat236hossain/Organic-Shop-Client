@@ -17,5 +17,5 @@ export default function proxy(request) {
 }
 
 export const config = {
-  matcher: ['/products/:path*','/add-product/:path*', '/login'],
+  matcher: ['/add-product/:path*', '/login'],
 };
