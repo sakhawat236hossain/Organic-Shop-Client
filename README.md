@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌿 Organic & Premium Food Shop
 
-## Getting Started
+A modern e-commerce platform dedicated to delivering pure and organic products—such as Sundarban honey, organic ghee, and cold-pressed mustard oil—sourced directly from nature to the consumer's doorstep. This project is built using **Next.js 14** and **Tailwind CSS**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Main Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Premium UI/UX:** A modern, clean, and luxury user interface designed for a seamless shopping experience.
+* **Seasonal Flash Sales:** A dedicated **Offers Page** featuring attractive discounts, countdown timers, and promo code functionality.
+* **Dynamic Product Grid:** Smart display of products based on categories and active flash sales with high-quality imagery.
+* **Toast Notifications:** Real-time feedback using toast alerts when a product is successfully created or an action is completed.
+* **Responsive Design:** Fully optimized for all screen sizes, including mobile, tablet, and desktop.
+* **Modern Hero Banners:** Eye-catching, high-conversion banners with glassmorphism effects and professional typography.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🚀 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Frontend:** Next.js 16 (App Router)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide-React
+* **Notifications:** React Hot Toast / Sonner
+* **Deployment:** Vercel
 
-## Learn More
+## 🛠 Setup & Installation
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to run the project locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/your-project-name.git](https://github.com/your-username/your-project-name.git)
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2.  **Navigate to the project directory:**
+    ```bash
+    cd your-project-name
+    ```
 
-## Deploy on Vercel
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the result.
+
+## 🛣 Route Summary
+
+| Route | Description |
+| :--- | :--- |
+| `/` | **Home Page** - Features summary, hero banner, and popular products. |
+| `/products` | **Product Listing** - Displays all available organic items. |
+| `/offers` | **Offers Page** - Active flash sales, discounts, and promo codes. |
+| `/cart` | **Shopping Cart** - Overview of items selected for purchase. |
+| `/admin/add-product` | **Admin Dashboard** - Create new products with real-time Toast alerts. |
+
+## 💡 Feature Explanation
+
+* **Toast Notifications:** To enhance user experience, a success toast notification appears whenever a product is successfully added to the database, providing immediate visual confirmation.
+* **Mega Offer Component:** This section utilizes advanced Tailwind configurations to create high-impact visual banners (as seen in the design requirements), encouraging users to take advantage of limited-time deals.
+
+---
+
+**Developed with ❤️ by Sakhawat.**
